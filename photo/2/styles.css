@@ -1,0 +1,47 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bas {
+    position: absolute;
+    z-index: 90;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    visibility: hidden;
+    background-color: #000;
+    opacity: 0.95;
+}
+
+#view {
+    position: absolute;
+    z-index: 91;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+}
+
+#tdt {
+    text-align: center;
+}
+
+.photo_big {
+    max-width: 80vw; 
+    max-height: 80vh;
+}
+
+
+.photo_small {
+    width: 300px;
+}

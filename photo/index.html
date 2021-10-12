@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo</title>
+    <style>
+        html, body {
+            height: 100%;
+        }
+
+        .wrapper {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+
+    <script>
+        window.onload = function() {
+            document.getElementById('photo').onclick = function() {
+                window.open("./emre-PjjMG6VyHs4-unsplash.jpg", "", "width=500, height=500");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <a href="#" id="photo">
+            <img src="./emre-PjjMG6VyHs4-unsplash.jpg" alt="Photo">
+        </a>
+    </div>
+</body>
+</html>
